@@ -1,0 +1,52 @@
+{
+    "_id": "65a808f6cdea8426f1162a0c",
+    "name": "image2text-ui",
+    "slug": "copyimprove-ui",
+    "organizationId": "Org",
+    "isPublic": true,
+    "isMenu": false,
+    "isShowPlatformTag": true,
+    "createdAt": "2024-01-17T17:05:58.412Z",
+    "updatedAt": "2024-01-30T14:12:19.553Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "home",
+            "isDefault": true
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "global_setting": {
+        "css": "${env.get(\"NODEREDURL\")}/css",
+        "title": "Image to text"
+    },
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-Asset-Store/UBOS-template-Image-To-Text-ui",
+        "defaultApplicationId": "copyimprove-ui",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-Asset-Store/UBOS-template-Image-To-Text-ui.git",
+        "repoName": "UBOS-template-Image-To-Text-ui"
+    }
+}
